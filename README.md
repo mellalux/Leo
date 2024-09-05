@@ -59,6 +59,7 @@ Before running the project, ensure you have the following installed:
 4. **Stopping script**: To stop the script, the user must say "stop listening" or "bye for now" during script listening.
 
 ## Example `.env` File
+
     This project uses the `.env` file to manage the OpenAI API key. Here’s an example of what your `.env` file should look like:
 
     ```bash
