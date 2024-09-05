@@ -63,13 +63,21 @@ Before running the project, ensure you have the following installed:
 
 ## Example `.env` File**:
     This project uses the `.env` file to manage the OpenAI API key. Here’s an example of what your `.env` file should look like:
+
     ```bash
     OPENAI_API_KEY=your_openai_api_key_here
     ```
+
     Make sure to replace `your_openai_api_key_here` with your actual OpenAI API key.
 
 ## Project Structure **:
-    Leo/ │ ├── venv/ # Virtual environment directory ├── Leo.py # Main Python script ├── requirements.txt # List of required Python packages ├── .env # Environment variables file (not included in version control) └── README.md # This documentation file
+    Leo/ 
+        │ 
+        ├── venv/ # Virtual environment directory 
+        ├── Leo.py # Main Python script 
+        ├── requirements.txt # List of required Python packages 
+        ├── .env # Environment variables file (not included in version control) 
+        └── README.md # This documentation file
 
 ### Dependencies
 
