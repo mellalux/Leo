@@ -68,8 +68,7 @@ Before running the project, ensure you have the following installed:
     Make sure to replace `your_openai_api_key_here` with your actual OpenAI API key.
 
 ## Project Structure **:
-    Leo/ 
-        │ 
+    Leo/| 
         ├── venv/ # Virtual environment directory 
         ├── Leo.py # Main Python script 
         ├── requirements.txt # List of required Python packages 
@@ -78,7 +77,7 @@ Before running the project, ensure you have the following installed:
 
 ### Dependencies
 
-This project requires the following Python libraries:
+    This project requires the following Python libraries:
 
 - **openai**: For interaction with the OpenAI API.
 - **pyaudio**: For recording and processing audio.
@@ -86,10 +85,10 @@ This project requires the following Python libraries:
 - **numpy**: For audio processing (detecting silence).
 - **python-dotenv**: For handling environment variables securely.
 
-All required packages can be installed using the `requirements.txt` file:
-```bash
-pip install -r requirements.txt
-```
+    All required packages can be installed using the `requirements.txt` file:
+    ```bash
+    pip install -r requirements.txt
+    ```
 
 ### Troubleshooting
 
@@ -102,7 +101,7 @@ pip install -r requirements.txt
 - **PyAudio**: Installation: If you run into issues installing pyaudio, you may need to install it manually for your system. On Windows, you can use a pre-built binary from this page.
 
     On Linux:
-    ´´´bash
+    ```bash
     sudo apt-get install portaudio19-dev python-pyaudio
     ```
 - **OpenAI API key**: Missing OpenAI API Key: Ensure that your .env file is correctly configured and contains the OpenAI API key.
