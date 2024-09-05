@@ -42,11 +42,8 @@ Before running the project, ensure you have the following installed:
     ```bash
     pip install -r requirements.txt
     ```
-1
-4. **Create a `.env` file** in the root directory and add your OpenAI API key:
-    ```bash
-    OPENAI_API_KEY=your_openai_api_key_here
-    ```
+    
+4. **Create a `.env` file**: in the root directory and add your OpenAI API key:
 
 ## Usage
 
