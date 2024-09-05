@@ -42,7 +42,7 @@ Before running the project, ensure you have the following installed:
     ```bash
     pip install -r requirements.txt
     ```
-    
+
 4. **Create a `.env` file**: in the root directory and add your OpenAI API key:
 
 ## Usage
@@ -90,3 +90,19 @@ All required packages can be installed using the `requirements.txt` file:
 ```bash
 pip install -r requirements.txt
 ```
+
+### Troubleshooting
+
+- **playaudio**: To install it on Windows, you can use this command:
+
+    ```bash
+    pip install playsound@git+https://github.com/taconi/playsound
+    ```
+
+- **PyAudio**: Installation: If you run into issues installing pyaudio, you may need to install it manually for your system. On Windows, you can use a pre-built binary from this page.
+
+    On Linux:
+    ´´´bash
+    sudo apt-get install portaudio19-dev python-pyaudio
+    ```
+- **OpenAI API key**: Missing OpenAI API Key: Ensure that your .env file is correctly configured and contains the OpenAI API key.
