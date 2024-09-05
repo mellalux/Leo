@@ -1,2 +1,9 @@
+# Ignore virtual environment
+venv/
+
+# Ignore environment variables file
 .env
-.venv
+
+# Ignore audio files
+input.wav
+response.mp3
