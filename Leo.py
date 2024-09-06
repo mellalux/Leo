@@ -80,7 +80,7 @@ def get_response(prompt):
     Generate a response from OpenAI's GPT.
     """
     response = client.chat.completions.create(
-        model="gpt-4o",
+        model="gpt-4",
         messages=[
             {"role": "system", "content": "You are a helpful assistant."},
             {"role": "user", "content": prompt}
