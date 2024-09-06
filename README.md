@@ -75,9 +75,9 @@ Make sure to replace `your_openai_api_key_here` with your actual OpenAI API key.
         ├── .env # Environment variables file (not included in version control) 
         └── README.md # This documentation file
 
-### Dependencies
+## Dependencies
 
-    This project requires the following Python libraries:
+### This project requires the following Python libraries:
 
 - **openai**: For interaction with the OpenAI API.
 - **pyaudio**: For recording and processing audio.
@@ -90,7 +90,7 @@ Make sure to replace `your_openai_api_key_here` with your actual OpenAI API key.
     pip install -r requirements.txt
     ```
 
-### Troubleshooting
+## Troubleshooting
 
 - **playaudio**: To install it on Windows, you can use this command:
 
