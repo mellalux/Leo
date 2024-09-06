@@ -58,15 +58,16 @@ Before running the project, ensure you have the following installed:
 
 4. **Stopping script**: To stop the script, the user must say "stop listening" or "bye for now" during script listening.
 
-## Example `.env` File
+### Example `.env` File
 
-    **This project uses the `.env` file to manage the OpenAI API key. Here’s an example of what your `.env` file should look like**:
+    This project uses the `.env` file to manage the OpenAI API key. Here’s an example of what your `.env` file should look like:
+    
     ```bash
     OPENAI_API_KEY=your_openai_api_key_here
     ```
     Make sure to replace `your_openai_api_key_here` with your actual OpenAI API key.
 
-## Project Structure **:
+### Project Structure
     Leo/| 
         ├── venv/ # Virtual environment directory 
         ├── Leo.py # Main Python script 
